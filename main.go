@@ -9,7 +9,7 @@ import (
 )
 var originaluserid = ""
 func main() {
-     dg, err := discordgo.New("Bot " + "OTA1ODkxNjg5NTgxOTE2MjEw.YYQrYQ.Y6NkIlkRafKTVWyqGO5lUjWeYa4")
+     dg, err := discordgo.New("Bot " + "token")
     if err != nil {
         fmt.Println("error created while making a bot")
         return
